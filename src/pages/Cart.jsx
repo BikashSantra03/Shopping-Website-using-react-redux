@@ -41,7 +41,7 @@ const Cart = () => {
               <p className="text-slate-700 text-xl font-[600] mb-5 ">
                 Total Amount:{" "}
                 <span className="font-bold ml-2 text-black">
-                  ${totalAmount.toFixed(2)}
+                  ₹{totalAmount.toFixed(2)}
                 </span>
               </p>
               <button
